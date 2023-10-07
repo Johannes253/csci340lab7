@@ -28,7 +28,8 @@ public static class SeedData
                     Name = "Germany",
                     FormationDate = DateTime.Parse("1989-10-12"),
                     BestFood = "Weißwurst",
-                    PopulationinMillion = 85.99M
+                    PopulationinMillion = 85.99M,
+                    Knownfor = "2 World Wars"
                 },
 
                 new Country
@@ -36,7 +37,8 @@ public static class SeedData
                     Name = "Croatia",
                     FormationDate = DateTime.Parse("1990-2-12"),
                     BestFood = "Something from Croatia probably",
-                    PopulationinMillion = 4.99M
+                    PopulationinMillion = 4.99M,
+                    Knownfor = "Tesla"
                 },
 
                 new Country
@@ -44,7 +46,8 @@ public static class SeedData
                     Name = "European Union",
                     FormationDate = DateTime.Parse("2030-2-12"),
                     BestFood = "Schnitzel",
-                    PopulationinMillion = 700.99M
+                    PopulationinMillion = 700.99M,
+                    Knownfor = "Being great"
                 }
             );
             context.SaveChanges();

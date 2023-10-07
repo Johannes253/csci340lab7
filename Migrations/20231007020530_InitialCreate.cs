@@ -20,7 +20,8 @@ namespace RazorPagesCountry.Migrations
                     Name = table.Column<string>(type: "TEXT", nullable: true),
                     FormationDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     BestFood = table.Column<string>(type: "TEXT", nullable: true),
-                    PopulationinMillion = table.Column<decimal>(type: "TEXT", nullable: false)
+                    PopulationinMillion = table.Column<decimal>(type: "TEXT", nullable: false),
+                    Knownfor = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -34,6 +34,11 @@
                 <span asp-validation-for="Country.PopulationinMillion" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Country.Knownfor" class="control-label"></label>
+                <input asp-for="Country.Knownfor" class="form-control" />
+                <span asp-validation-for="Country.Knownfor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>

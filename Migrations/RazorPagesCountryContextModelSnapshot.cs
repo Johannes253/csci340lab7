@@ -29,6 +29,10 @@ namespace RazorPagesCountry.Migrations
                     b.Property<DateTime>("FormationDate")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Knownfor")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 

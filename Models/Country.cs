@@ -14,4 +14,7 @@ public class Country
     public string? BestFood { get; set; }
     [Display(Name = "Population in Million")]
     public decimal PopulationinMillion { get; set; }
+
+     [Display(Name = "Known for")]
+    public string Knownfor { get; set; } = string.Empty;
 }

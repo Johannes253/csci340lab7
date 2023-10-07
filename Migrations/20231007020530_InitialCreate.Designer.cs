@@ -11,7 +11,7 @@ using RazorPagesCountry.Data;
 namespace RazorPagesCountry.Migrations
 {
     [DbContext(typeof(RazorPagesCountryContext))]
-    [Migration("20231007005605_InitialCreate")]
+    [Migration("20231007020530_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -30,6 +30,10 @@ namespace RazorPagesCountry.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("FormationDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Knownfor")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
