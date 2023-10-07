@@ -11,7 +11,7 @@ using RazorPagesCountry.Data;
 namespace RazorPagesCountry.Migrations
 {
     [DbContext(typeof(RazorPagesCountryContext))]
-    [Migration("20231007020530_InitialCreate")]
+    [Migration("20231007023238_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
