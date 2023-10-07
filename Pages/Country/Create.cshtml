@@ -1,0 +1,49 @@
+@page
+@model RazorPagesCountry.Pages_Country.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Country</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Country.Name" class="control-label"></label>
+                <input asp-for="Country.Name" class="form-control" />
+                <span asp-validation-for="Country.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country.FormationDate" class="control-label"></label>
+                <input asp-for="Country.FormationDate" class="form-control" />
+                <span asp-validation-for="Country.FormationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country.BestFood" class="control-label"></label>
+                <input asp-for="Country.BestFood" class="form-control" />
+                <span asp-validation-for="Country.BestFood" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country.PopulationinMillion" class="control-label"></label>
+                <input asp-for="Country.PopulationinMillion" class="form-control" />
+                <span asp-validation-for="Country.PopulationinMillion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

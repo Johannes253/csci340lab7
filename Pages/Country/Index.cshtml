@@ -1,0 +1,54 @@
+@page
+@model RazorPagesCountry.Pages_Country.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Country[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country[0].FormationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country[0].BestFood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country[0].PopulationinMillion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Country) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BestFood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PopulationinMillion)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

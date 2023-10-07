@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\johan\OneDrive\Desktop\Database&WebSystems\RazorPage\csci340lab7\RazorPagesCountry
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/johan/OneDrive/Desktop/Database&WebSystems/RazorPage/csci340lab7/RazorPagesCountry/Pages/Country/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johan/OneDrive/Desktop/Database&WebSystems/RazorPage/csci340lab7/RazorPagesCountry/Pages/Country/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johan/OneDrive/Desktop/Database&WebSystems/RazorPage/csci340lab7/RazorPagesCountry/Pages/Country/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johan/OneDrive/Desktop/Database&WebSystems/RazorPage/csci340lab7/RazorPagesCountry/Pages/Country/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johan/OneDrive/Desktop/Database&WebSystems/RazorPage/csci340lab7/RazorPagesCountry/Pages/Country/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/johan/OneDrive/Desktop/Database&WebSystems/RazorPage/csci340lab7/RazorPagesCountry/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

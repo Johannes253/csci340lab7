@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RazorPagesCountry.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<RazorPagesCountryContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesCountryContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesCountryContext' not found.")));
 
 var app = builder.Build();
 
